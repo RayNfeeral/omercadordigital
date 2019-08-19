@@ -42,10 +42,21 @@
           <a class="nav-link" href="Contato">Contato</a>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-      </form>
+      <FORM method=GET action=http://search.freefind.com/find.html>
+
+<INPUT TYPE=HIDDEN NAME=id VALUE=40267945>
+
+<INPUT TYPE=HIDDEN NAME=pid VALUE=r>
+
+<INPUT TYPE=HIDDEN NAME=mode VALUE=ALL>
+
+<INPUT type=HIDDEN name=n value=0>
+
+<input type=hidden name=lang value=pt>
+
+<input type=text name=query size=20>
+
+<input type=submit value=Procurar>
     </div>
   </nav>
 
