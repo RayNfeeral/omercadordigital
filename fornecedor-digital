@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+  <title>Mercador Digital</title>
+
+  <meta charset="utf-8">
+  <meta name="description" content="Fornecedores é um dos pontos importante em um restaurante, encontre aqui os três principais erros na hora da escolha">
+  <meta name="keywords" content="Fornecedor,restaurante,digital">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Happy Hour com Veganos! Mercado em ascensão e seu negócio precisa se adaptar, aqui, dicas de comida vegana para seu boteco.
+">
+  <meta name="keywords" content="Vegan,Boteco,restaurantes,comida">
+ 
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="jumbotron text-center">
+
+  <h1>O Mercador Digital</h1>
+
+  <p>O seu mercado digital de educação</p> 
+
+</div>
+
+
+
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <a class="navbar-brand" href="#"></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+  
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item active">
+
+          <a class="nav-link" href="https:\\omercadordigital.netlify.com">Início<span class="sr-only"></span></a>
+
+        </li>
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+            Conteúdo
+
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+            <a class="dropdown-item" href="vegan-conteudo.html">Veganismo</a>
+
+            <a class="dropdown-item" href="fornecedor-digital.html">Fornecedor Digital</a>
+
+            <div class="dropdown-divider"></div>
+
+            <a class="dropdown-item" href="#">Algo mais aqui</a>
+
+          </div>
+
+        </li>
+
+        <li class="nav-item">
+
+          <a class="nav-link" href="Contato">Contato</a>
+
+        </li>
+
+      </ul>
+
+      <FORM method=GET action=http://search.freefind.com/find.html>
+
+<INPUT TYPE=HIDDEN NAME=id VALUE=40267945>
+
+<INPUT TYPE=HIDDEN NAME=pid VALUE=r>
+
+<INPUT TYPE=HIDDEN NAME=mode VALUE=ALL>
+
+<INPUT type=HIDDEN name=n value=0>
+
+<input type=hidden name=lang value=pt>
+
+<input type=text name=query size=20>
+
+<input type=submit value=Procurar>
+
+    </div>
+
+  </nav>
+
+  <div class="container">
+    <br>
+    <h2 class="text-center">Os 3 maiores erros na hora de escolher um fornecedor para seu restaurante</h2>
+    <br>
+    <p class="text-justify text-break">Fornecedores é um dos pontos mais delicados na gestão do seu restaurante e com uma boa 
+      <br>
+  escolha você pode além de organizar melhor sua gestão, aumentar seus lucros, reduzir tempo
+      preocupada com isso, o pessoal acaba procurando outros bares, pois bebida querendo ou não,
+      de trabalho entre outra tantas infinitas possibilidades.</p>
+      <p class="text-justify text-break">Você está preparado para essa escolha? Continue acompanhando o texto para descobrir quais
+      são os 3 principais erros e aprenda com eles.</p>
+    <br>
+    <img src="https://media.giphy.com/media/CjmvTCZf2U3p09Cn0h/giphy.gif">
+    <br>
+    <ol>
+      <li><h3>O principal critério da escolha ser o preço.</h3></li>
+      <br>
+<p class="text-justify text-break">Economizar é sempre bom, não é? Além do preço, fique atento quais marcas seu fornecedor é
+parceiro. Um bom fornecedor sempre pensa em seu restaurante, que você é capaz de fazer 
+uma seleção de produtos exclusivos e de marcas reconhecidas do mercado, então pesquise 
+quais marcas que se adequa perfeitamente em seu cardápio e não deixe que ele te indique as 
+ 
+    marcas por causa de um orçamento melhor. Pense a qualidade da matéria-prima e fundamental
+    para sua oferta gastronômica. </p>
+<br>
+<li><h3>Não cobrar datas e prazos para a entrega.</h3></li>
+    <br>
+    <p>
+    Na correria do dia a dia, restaurante lotado, o prato do dia sendo requisitado em quase todas as <br>
+    mesas e acaba seu estoque do produto específico do prato! Como um bom organizador que<br>
+    você é pensa ‘Não era para ter acabado’ , quando você vê o que realmente aconteceu foi que<br>
+    sua entrega atrasou e irá chegar somente daqui 2 dias. Então não perca mais venda, escolha<br>
+    fornecedores sem histórico de atraso, que move céus e terras para entregar seus pedidos,<br>
+    fornecedores que têm frota própria e não depende de serviços de correios e transportadoras de <br>
+    outros de produtos de varejo e comércio.<br>
+    </p>
+<br>
+    <li><h3>Ter vários fornecedores.</h3></li>
+    <br>
+    <p class="text-justify text-break">
+    Uma prática feita por donos de restaurante é fazer pesquisa todo mês de fornecedores e passar de atacado em
+    atacado para ver quais têm os melhores preços e produtos. Além de você estar gastando um tempo precioso você
+    estará enfrentando filas, estressando com o mal atendimento gastando com o transporte. Então como tempo é dinheiro
+    e estresse faz mal a sua saúde, escolha um fornecedor que tem uma variedade de produtos, que seus produtos vem direto
+    da  indústria para seu restaurante, assim possibilitando preços bem melhores,  que tem atendimento online, que você
+    possa fazer seu pedido do seu escritório e que dá descontos para clientes recorrentes. O mundo online já é realidade
+    no mercado de fornecedores e atacado, <a href="https://exame.abril.com.br/negocios/gpa-lanca-plataforma-digital-com-entregas-para-atacado-em-ate-72h-em-sp/">clique aqui</a> e veja essa matéria de um grande veículo de comunicação do país.
+    <p>
+    <br>
+    <img src="https://lh6.googleusercontent.com/OzypdtdAz6w3pW3Pf8gZfjjLrIOsckloDoHSAGvyVX1qT1gxAasau03UZWM991E-9JPbWMlZpxo4GZ7UsvjjdtxdFek0uH3daQ46hSBSQSBpim0CsrsBB9GvEdcQDcZLkC_-YvTK" style="width:800px" alt="fornecedor digital">
+    <br>
+    
+    <p class="text-justify text-break">Em conclusão, os bons fornecedores são aqueles que têm em seus portfolio as melhores marcas, entregue seu produto como você planejou, trabalhe diretamente com a indústria de alimentos e que o processo de compra seja o mais simples e prático.
+<br>
+Quer saber mais dicas sobre comércio e seus fornecedores deixe seu email abaixo e se inscreva em nossa newsletter.  
+  </p>
+    
+    
+    <a href="<img src="https://image.flaticon.com/icons/svg/69/69407.svg" style="width:15px>"Face</a>
+    
+
+      
+    <div class="row">
+        <div class="col-sm-6">
+            <h5 class="text-center">Gostaria de saber mais? Baixe nosso E-book!</h5>
+            <br>
+            <form name="contact" netlify>
+                    <p class="text-center">
+                      <label>Name <input type="text" name="name" /></label>
+                    </p>
+                    <p class="text-center">
+                      <label>Email <input type="email" name="email" /></label>
+                    </p>
+                    <p class="text-center">
+                      <button type="submit">Send</button>
+                    </p>
+                  </form>
+        </div>
+        <div class="col-sm-6">
+            <img src="#" class="img-fluid">
+        </div>
+    </div>
+  </div>
+  <div class="container-fluid card-footer">
+      <div class="row">
+            <div class="col-sm-2">
+                <p class="text-center">Assine nossa newsletter!</p>
+                <form name="contact" netlify>
+                    <p class="text-right">
+                        <label>Name <input type="text" name="name" /></label>
+                    </p>
+                    <p class="text-right">
+                        <label>Email <input type="email" name="email" /></label>
+                    </p>
+                    <p class="text-right">
+                        <button type="submit">Send</button>
+                    </p>
+                </form>
+            </div>
+      </div>
+  </div>
+</body>
+
+</html>
