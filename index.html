@@ -83,63 +83,37 @@
   
   
 
-    <div class="d-flex flex-wrap justify-content-between card-footer">
+<div class="d-flex flex-wrap justify-content-center card-footer">
 
-                <form name="news" netlify>
-                  <h5>Assine nossa newsletter!</h5>
-                  <br>
-                      <p>
-                        <label>Nome Completo </label>
-                  </p>
-                    <p>
+    <div>
 
-                        <input type="text" name="name"/></label>
+      <h5 class="text-center">Assine nossa newsletter!</h5>
 
-                    </p>
-                      <p>
-                        <label>Email</label>
-                  </p>
-                    <p >
+      <br>
 
-                        <input type="email" name="email" /></label>
+    <form name="news" class="form-inline" netlify>
 
-                    </p>
+      <div class="form-group">
 
-                    <p>
+        <label>Nome Completo:</label>
 
-                        <button type="submit">Send</button>
+        <input type="text" name="name" class="mx-1 form-control">
 
-                    </p>
+      </div>
 
-                </form>
-  
-                <form name="ebook" netlify>
-                  <h5>Baixe nosso Ebook sobre ferramentas digitais!!!</h5>
-                  <br>
-                      <p>
-                        <label>Nome Completo </label>
-                  </p>
-                    <p>
+      <div class="form-group">
 
-                      <input type="text" name="name" /></label>
+        <label>Email:</label>
 
-                    </p>
-                    <p>
-                        <label>Email</label>
-                  </p>
-                    <p>
+        <input type="email" name="email" class="ml-1 mr-5 form-control">
 
-                     <input type="email" name="email" /></label>
+      </div>
 
-                    </p>
+        <button type="submit" class="btn btn-primary mr-5">Send</button>
 
-                    <p>
+     </form>
 
-                      <button type="submit">Send</button>
-
-                    </p>
-
-                  </form>
+    </div>
 
   </div>
 </body>
