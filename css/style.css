@@ -6,6 +6,11 @@
     background-color: #083b58;
 }
 
+.logo img {
+    max-width:80%;
+    height: auto;
+}
+
 .max-width-6 {
     max-width: 600px;
 }
