@@ -5,3 +5,7 @@
     padding: 0px;
     background-color: #083b58;
 }
+
+.max-width-300 {
+    max-width: 300px;
+}
