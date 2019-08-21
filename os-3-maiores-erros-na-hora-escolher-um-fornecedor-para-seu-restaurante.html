@@ -40,7 +40,7 @@
 
 
 
-<div class="p-0 m-0 d-flex justify-content-center" style="background-color: #083b58">
+<div class="p-0 m-0 d-flex justify-content-center" style="background-color: #2a75b6">
 
    <img src="../img/logo.png" class="img-fluid">
 
@@ -48,43 +48,69 @@
 
 
 
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="https:\\omercadordigital.netlify.com">Início<span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Conteúdo
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="comida-vegana-voce-precisa-ter-no-seu-boteco">Produtos Veganos</a>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-            <a class="dropdown-item" href="os-3-maiores-erros-na-hora-escolher-um-fornecedor-para-seu-restaurante">Fornecedor Digital</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
-            <a class="dropdown-item" href="7-ferramentas-digitais-que-vao-turbinar-o-seu-negocio">Ferramentas Digitais</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Contato">Contato</a>
-        </li>
-      </ul>
-      
-      <div class="row">
-        <div class="col-sm-9"></div>
-        <div class="col-sm-3">
-          <div class="gcse-search"></div>
+    <span class="navbar-toggler-icon"></span>
+
+  </button>
+
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item active">
+
+        <a class="nav-link" href="index">Ínicio<span class="sr-only">(atual)</span></a>
+
+      </li>
+
+      <li class="nav-item dropdown">
+
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+          Dropdown
+
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+          <a class="dropdown-item" href="comida-vegana-voce-precisa-ter-no-seu-boteco">Produtos Veganos</a>
+
+          <div class="dropdown-divider"></div>
+
+          <a class="dropdown-item" href="os-3-maiores-erros-na-hora-escolher-um-fornecedor-para-seu-restaurante">Fornecedor Digital</a>
+
+          <div class="dropdown-divider"></div>
+
+          <a class="dropdown-item" href="7-ferramentas-digitais-que-vao-turbinar-o-seu-negocio">Ferramentas Digitais</a>
+
         </div>
-      
-      
-      
-    </div>
-  </nav>
+
+      </li>
+
+      <li class="nav-item">
+
+        <a class="nav-link" href="Contato">Contato</a>
+
+      </li>
+
+    </ul>
+
+    <form class="form-inline my-2 my-lg-0 invisible" action="busca" method="GET">
+
+      <input class="form-control mr-sm-2" name="q" type="search" placeholder="Buscar por..." aria-label="Search">
+
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+
+    </form>
+
+  </div>
+
+</nav>
 
   <div class="container my-5" style="max-width: 700px">
     <h1 class="text-center">Os 3 maiores erros na hora de escolher um fornecedor para seu restaurante</h1>
@@ -136,8 +162,7 @@
    </div>   
   <div class="d-flex flex-wrap justify-content-center card-footer mt-5">
     <div>
-      <h5 class="text-center">Assine nossa newsletter!</h5>
-      <br>
+      <h5 class="text-center mb-3">Assine nossa newsletter!</h5>
     <form name="news" class="form-inline" netlify>
       <div class="form-group">
         <label>Nome Completo:</label>
