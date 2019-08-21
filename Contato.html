@@ -112,7 +112,7 @@
 
 
 
-  <div class="container" style="max-width: 600px">
+  <div class="container my-5" style="max-width: 600px">
     <br>
 
     <h2 class="text-center">O Mercador Digital</h2>
@@ -124,45 +124,25 @@
     <br>
     <br>
     
-    <h2 class="text-center">Contato</h2>
-    <br>
+    <h2 class="text-center my-3">Contato</h2>
             <form name="contact" netlify>
-                <div class="row">
-                    <div class="col-sm-6">
-                      <p>
-
-                            <label>Name <input type="text" name="name" /></label>
-      
-                          </p>
-      
-                          <p>
-      
-                            <label>Email <input type="email" name="email" /></label>
-      
-                          </p>
-                        </div>
-                    <div class="col-sm-6">
-                      <p>
-                            
-                            <textarea rows="4" cols="30" maxlength="500" name="sugestão" placeholder="Deixe sua sugestão" ></textarea>
-      
-                          </p>
-                        </div>
-                </div>
-                    
-
-                    <p>
-
-                      <button type="submit">Send</button>
-
-                    </p>
+              <div class="form-group">
+                <label>Nome completo:</label>
+                <input type="text" name="name" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>Email:</label>
+                <input type="email" name="email" class="form-control">
+              </div>
+              
+              
+              <textarea maxlength="500" name="sugestão" placeholder="Deixe sua sugestão" class="form-control"></textarea>
+              
+              <button type="submit">Enviar</button>
 
             </form>
-
-
-
   </div>
-<br><br>
+   
 <div class="d-flex flex-wrap justify-content-center card-footer">
 
     <div>
