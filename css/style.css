@@ -18,6 +18,10 @@ body {
    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.103);
 }
 
+.dropdown .dropdowm-toggle {
+   color: rgba(255, 255, 255, 1);
+ }
+
 .navbar-dark .navbar-nav .nav-item:hover{
    background-color: rgba(25, 76, 120, 1);
 }
@@ -30,7 +34,7 @@ body {
    color: rgba(255, 255, 255, 1);
  }
 
-.nav-bar .navbar-nav .nav-item .active{
+.nav-bar .navbar-nav .active{
    background-color: rgba(25, 76, 120, 1);
 }
 
