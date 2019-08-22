@@ -40,7 +40,7 @@
 
 
 
-<div class="p-0 m-0 d-flex justify-content-center">
+<div class="p-0 container-fluid">
 
    <img src="../img/logo.png" class="img-fluid">
 
@@ -129,7 +129,7 @@
       Mas, não se desespere, nós vamos te ajudar a se tornar mais competitivo com 5 dicas fáceis e rápidas para começar a colocar 
       em prática!
     </p>
-    <div class="d-flex justify-content-center my-3">
+    <div class="container-fluid my-3">
       <img src="../img/minimercado.png" alt="minimercados perdem clientes para redes grandes" class="img-fluid w-100">
     </div>
     <ol class="my-3">
@@ -219,25 +219,15 @@
     <h5 class="text-center text-white mb-3">Assine nossa newsletter!</h5>
 
     <form name="news" class="d-flex flex-column justify-content-start justify-content-md-center flex-md-row " netlify>
-
       <div class="form-group mx-2">
-
-        <label class="text-white">Nome Completo:</label>
-
-        <input type="text" name="name" class="form-control">
-
+        <label class="sr-only">Nome Completo</label>
+        <input type="text" name="name" placeholder="Nome Completo" class="form-control">
       </div>
-
       <div class="form-group mx-2">
-
-        <label class="text-white">Email:</label>
-
-        <input type="email" name="email" class="form-control">
-
+        <label class="sr-only">Email</label>
+        <input type="email" name="email" placeholder="Seu email" class="form-control">
       </div>
-
-      <button type="submit"  class="btn btn-success align-self-center my-0 mt-md-3 mb-mb-2 h-50">Enviar</button>
-
+      <button type="submit"  class="btn btn-success mx-auto mx-md-0 h-75">Enviar</button>
     </form>
 
   </div>
