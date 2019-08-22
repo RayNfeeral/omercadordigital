@@ -22,11 +22,7 @@ body {
    color: rgba(255, 255, 255, 1);
  }
 
-.navbar .navbar-toggler .navbar-toggler-icon{
-   opacity: 1:
-}
-
-.navbar-dark .navbar-nav .nav-item {
+.navbar-dark {
    margin: 0px;
 }
 
