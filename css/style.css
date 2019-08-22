@@ -22,6 +22,10 @@ body {
    color: rgba(255, 255, 255, 1);
  }
 
+.navbar .navbar-toggler .navbar-toggler-icon{
+   opacity: 1:
+}
+
 .navbar-dark .navbar-nav .nav-item:hover{
    background-color: rgba(25, 76, 120, 1);
 }
