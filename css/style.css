@@ -26,7 +26,7 @@ body {
    padding: 0px;
 }
 
-.navbar-dark .navbar-nav .nav-item {
+.navbar-dark .navbar-collapse .nav-item {
    padding: 0px, 10px, 0px, 10px;
 }
 
