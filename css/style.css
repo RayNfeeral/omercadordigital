@@ -26,6 +26,10 @@ body {
    padding: 0px;
 }
 
+.navbar-dark .navbar-nav .nav-item {
+   padding: 0px, 10px, 0px, 10px;
+}
+
 .navbar-dark .navbar-nav .nav-item:hover{
    background-color: rgba(25, 76, 120, 1);
 }
