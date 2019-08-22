@@ -24,6 +24,7 @@ body {
 
 .navbar-dark {
    padding: 0px;
+   background-color: #2a75b6;
 }
 
 .navbar-dark .navbar-nav .nav-link {
