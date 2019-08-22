@@ -20,12 +20,19 @@ body {
 
 .navbar-dark .navbar-nav .nav-item:hover{
    background-color: rgba(25, 76, 120, 1);
-   opacity: 1;
 }
 
 .navbar-dark .navbar-nav .nav-link {
    color: rgba(255, 255, 255, 1);
  }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+   color: rgba(255, 255, 255, 1);
+ }
+
+.nav-bar .navbar-nav .nav-item .active{
+   background-color: rgba(25, 76, 120, 1);
+}
 
 .dropdown-menu {
    display: relative;
