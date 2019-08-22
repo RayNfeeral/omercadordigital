@@ -23,7 +23,7 @@ body {
  }
 
 .navbar-dark {
-   margin: 0px;
+   padding: 0px;
 }
 
 .navbar-dark .navbar-nav .nav-item:hover{
