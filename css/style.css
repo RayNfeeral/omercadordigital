@@ -76,3 +76,7 @@ body {
    font-family: 'Merriweather', serif;
    color: rgba(0, 0, 0, 0.61)
 }
+
+.searchbar {
+   padding: 10px;
+}
