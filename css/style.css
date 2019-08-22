@@ -26,6 +26,10 @@ body {
    opacity: 1:
 }
 
+.navbar-dark .navbar-nav .nav-item {
+   margin: 0px;
+}
+
 .navbar-dark .navbar-nav .nav-item:hover{
    background-color: rgba(25, 76, 120, 1);
 }
