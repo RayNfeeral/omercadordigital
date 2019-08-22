@@ -2,6 +2,21 @@ body {
    font-family: 'Open Sans', sans-serif;
 }
 
+fonte Lora, e tudo que for paragrafo, é a fonte Merriwether
+
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-size:23px;
+  line-height: 30px;
+  font-kerning: 10px;
+}
+
+p {
+   font-family: 'Merriweather', serif;
+   color: rgba(0, 0, 0, 0.61)
+}
+
 .card-img-top:hover {
    opacity:0.5;
    transition: 0.3s;
