@@ -34,7 +34,7 @@ body {
    color: rgba(255, 255, 255, 1);
  }
 
-.nav-bar .navbar-nav .active{
+.navbar-dark .navbar-nav .nav-item .active{
    background-color: rgba(25, 76, 120, 1);
 }
 
