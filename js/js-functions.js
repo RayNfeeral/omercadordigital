@@ -7,7 +7,11 @@ function isReferredNotFromMe() {
     }
 }
 
+let alreadyActivatedModal = false;
+
 document.addEventListener('scroll', () => {
-    if(isReferredNotFromMe())
+    if(isReferredNotFromMe() && !alreadyActivatedModal){
         $('#modalNewsletter').modal('show')
+        alreadyActivetedModal = true;
+    }
 })
