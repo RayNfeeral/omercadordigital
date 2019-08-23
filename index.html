@@ -157,7 +157,7 @@
     <a href="index" class="mx-2 my-3 d-none d-lg-block">
         <img class="img-fluid" src="../img/logo-icon.png" style="max-height: 100px;">
       </a>
-  <div class="d-flex flex-column m-2 align-content-center">
+  <div class="d-flex d-flex-3 flex-column m-2 align-content-center">
     <h5 class="text-center text-white mb-3">Assine nossa newsletter!</h5>
     <form name="news" action="" class="d-flex flex-column justify-content-start justify-content-md-center flex-md-row " netlify>
       <div class="form-group mx-2">
@@ -199,7 +199,7 @@
         </div>
   </div>
 
-  <script>
+    <script>
     function iniciaModal(modalID) {
       if(localStorage.fechaModal !== modalID) {
       const modal = document.getElementById(modalID);
@@ -215,8 +215,13 @@
     }
     }
 
-    const logo = document.querySelector('.img-fluid')
+    const logo = document.querySelector('.btn')
     logo.addEventListener('click', () => iniciaModal('modal-lead'))
-  </script>
+
+    document.addEventListener('scroll', () => {
+      if(window.pageYOffset > 800) {
+        iniciaModal('modal-lead');
+      }
+    })
 </body>
 </html>
