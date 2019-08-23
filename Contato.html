@@ -46,7 +46,7 @@
     <div class="modal-dialog  modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Obrigado!</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Assine nossa newsletter!</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -64,18 +64,15 @@
             <button type="submit" class="btn btn-success"  data-toggle="modal" data-target="#formConfirmation">Enviar</button>
           </form>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-        </div>
       </div>
     </div>
   </div>
   
-  <div class="modal fade" id="formConfirmation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="newsConfirmatio" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog  modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Obrigado!</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Envio Confirmado</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -89,8 +86,24 @@
       </div>
     </div>
   </div>
-
-
+  <div class="modal fade" id="contactConfirmation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Envio Confirmado</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Obrigado por se cadastrar na nossa newsletter!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -184,7 +197,7 @@
     <br>
     
     <h2 class="text-center my-3">Contato</h2>
-            <form name="contact" netlify>
+            <form name="contact" action="#" netlify>
               <div class="form-group">
                 <label>Nome completo:</label>
                 <input type="text" name="name" class="form-control">
@@ -195,7 +208,7 @@
               </div>
               
               
-              <textarea maxlength="500" name="sugestão" placeholder="Deixe sua sugestão" class="form-control"></textarea>
+              <textarea maxlength="500" name="sugestão" placeholder="Deixe sua sugestão" class="form-control"  data-toggle="modal" data-target="#contactConfirmation"></textarea>
               
               <button type="submit" class="btn btn-success mt-2">Enviar</button>
 
@@ -242,7 +255,7 @@
 
     <h5 class="text-center text-white mb-3">Assine nossa newsletter!</h5>
 
-    <form name="news" action="#" class="d-flex flex-column justify-content-start justify-content-md-center flex-md-row ">
+    <form name="news" action="#" class="d-flex flex-column justify-content-start justify-content-md-center flex-md-row " netlify>
       <div class="form-group mx-2">
         <label class="sr-only">Nome Completo</label>
         <input type="text" name="name" placeholder="Nome Completo" class="form-control">
@@ -251,7 +264,7 @@
         <label class="sr-only">Email</label>
         <input type="email" name="email" placeholder="Seu email" class="form-control">
       </div>
-      <button type="submit"  class="btn btn-success mx-auto mx-md-0 h-75"  data-toggle="modal" data-target="#formConfirmation">Enviar</button>
+      <button type="submit"  class="btn btn-success mx-auto mx-md-0 h-75"  data-toggle="modal" data-target="#newsConfirmation">Enviar</button>
     </form>
 
   </div>
