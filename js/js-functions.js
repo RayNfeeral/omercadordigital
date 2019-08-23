@@ -8,6 +8,6 @@ function isReferredNotFromMe() {
 }
 
 document.addEventListener('scroll', () => {
-   // if(isReferredNotFromMe())
+    if(isReferredNotFromMe())
         $('#modalNewsletter').modal('show')
 })
