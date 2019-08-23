@@ -9,5 +9,5 @@ function isReferredNotFromMe() {
 
 document.addEventListener('scroll', () => {
    // if(isReferredNotFromMe())
-        $('#formNewsletter').modal('show')
+        $('#modalNewsletter').modal('show')
 })
