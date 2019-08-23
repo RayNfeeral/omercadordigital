@@ -24,13 +24,123 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/style.css">
   
-  <script async src="https://cse.google.com/cse.js?cx=012227543180749507366:8btrney3ouk"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
+  <div class="modal fade" id="modalNewsletter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog  modal-dialog-centered" role="document">
+
+
+
+      <div class="modal-content">
+
+
+
+        <div class="modal-header">
+
+          <h5 class="modal-title" id="exampleModalLabel">Assine nossa newsletter!</h5>
+
+
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+
+            <span aria-hidden="true">&times;</span>
+
+          </button>
+
+        </div>
+
+
+
+        <div class="modal-body">
+
+          <form name="news" action="" class="" netlify>
+
+
+
+            <div class="form-group">
+
+              <label class="sr-only">Nome Completo</label>
+
+              <input type="text" name="name" placeholder="Nome Completo" class="form-control">
+
+            </div>
+
+
+
+            <div class="form-group">
+
+              <label class="sr-only">Email</label>
+
+              <input type="email" name="email" placeholder="Seu email" class="form-control">
+
+            </div>
+
+
+
+            <button type="submit" class="btn btn-success"  data-toggle="modal" data-target="#formConfirmation">Enviar</button>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  
+
+
+
+  <div class="modal fade" id="ebookConfirmation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog  modal-dialog-centered" role="document">
+
+      <div class="modal-content">
+
+        <div class="modal-header">
+
+          <h5 class="modal-title" id="exampleModalLabel">Envio Confirmado</h5>
+
+
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+
+            <span aria-hidden="true">&times;</span>
+
+          </button>
+
+
+
+        </div>
+
+        <div class="modal-body">
+
+          <p>Parabés!! Você receberá seu ebook em breve!</p>
+
+        </div>
+
+
+
+        <div class="modal-footer">
+
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  
+  
 <div class="p-0 container-fluid">
   <a href="index">
    <img src="../img/logo.jpg" class="img-fluid">
