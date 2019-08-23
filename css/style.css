@@ -33,10 +33,6 @@ p {
    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.103);
 }
 
-.card-body p {
-   margin: auto;
-}
-
 .dropdown .dropdowm-toggle {
    color: rgba(255, 255, 255, 1);
  }
