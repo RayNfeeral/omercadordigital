@@ -9,9 +9,14 @@ function isReferredNotFromMe() {
 
 let alreadyActivatedModal = false;
 
+function setModalViewd(){
+    alreadyActivatedModal = true;
+}
+
+
 document.addEventListener('scroll', () => {
     if(isReferredNotFromMe() && !alreadyActivatedModal){
-        $('#modalNewsletter').modal('show')
-        alreadyActivetedModal = true;
+        $('#modalNewsletter').modal('show');
+        setModalViewd();
     }
 })
