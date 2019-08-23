@@ -52,21 +52,6 @@
 
   <link rel="stylesheet" href="../css/style.css">
 
-  
-
-  <script async src="https://cse.google.com/cse.js?cx=012227543180749507366:8btrney3ouk"></script>
-
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-
-
-
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 
 
@@ -76,7 +61,199 @@
 
 <body>
 
+<div class="modal fade" id="modalNewsletter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
+
+
+
+
+
+
+    <div class="modal-dialog  modal-dialog-centered" role="document">
+
+
+
+
+
+
+
+      <div class="modal-content">
+
+
+
+
+
+
+
+        <div class="modal-header">
+
+
+
+
+
+
+
+          <h5 class="modal-title" id="exampleModalLabel">Assine nossa newsletter!</h5>
+
+
+
+
+
+
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+
+
+
+
+
+
+
+            <span aria-hidden="true">&times;</span>
+
+
+
+
+
+
+
+          </button>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <div class="modal-body">
+
+
+
+
+
+
+
+          <form name="news" action="" class="" netlify>
+
+
+
+
+
+
+
+            <div class="form-group">
+
+
+
+
+
+
+
+              <label class="sr-only">Nome Completo</label>
+
+
+
+
+
+
+
+              <input type="text" name="name" placeholder="Nome Completo" class="form-control">
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+            <div class="form-group">
+
+
+
+
+
+
+
+              <label class="sr-only">Email</label>
+
+
+
+
+
+
+
+              <input type="email" name="email" placeholder="Seu email" class="form-control">
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+            <button type="submit" class="btn btn-success"  data-toggle="modal" data-target="#formConfirmation">Enviar</button>
+
+
+
+
+
+
+
+          </form>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+  </div>
 
 
 
@@ -245,7 +422,7 @@
     <p class="text-justify text-break my-3">
       Hoje o mercado vegano no Brasil é representado por  R$2,8 milhões e a cada ano só cresce.
       Na pesquisa IBOPE Inteligência realizada no público brasileiro (para ver a pesquisa na íntegra 
-      <a href="https://www.svb.org.br/images/Documentos/JOB_0416_VEGETARIANISMO.pdf">clique aqui</a>
+      <a target="_blank" href="https://www.svb.org.br/images/Documentos/JOB_0416_VEGETARIANISMO.pdf">clique aqui</a>
       ), mais da metade dos entrevistados (55%) declara que consumiria mais produtos veganos se estivessem indicados na embalagem  e 60% se o preço fosse o mesmo dos que estão habituados a usar. Nas capitais, esta porcentagem sobe para 65%
     </p>        
 
@@ -339,7 +516,7 @@
         <label class="sr-only">Email</label>
         <input type="email" name="email" placeholder="Seu email" class="form-control">
       </div>
-      <button type="submit"  class="btn btn-success mx-auto mx-md-0 h-75">Enviar</button>
+      <button type="submit"  class="btn btn-success mx-auto mx-md-0 h-75" data-toggle="modal" target="#newsConfirmation">Enviar</button>
     </form>
 
   </div>
@@ -362,6 +539,23 @@
 
   </footer>
 
+    
+
+  <script async src="https://cse.google.com/cse.js?cx=012227543180749507366:8btrney3ouk"></script>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <script src="../js/js-functions.js"></script>
 </body>
 
 
