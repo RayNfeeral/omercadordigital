@@ -1,4 +1,4 @@
-O Mercador Digital
+#O Mercador Digital
 
 O blog O Mercador Digital foi criado durante o 1º assignment do programa Gama Experience como forma de adquirir leads. Ele foi programado 
 por mim e meu colega de equipe Francisco com desing e conteúdos criados por outros membros da equipe.
