@@ -6,6 +6,8 @@ Feito com HTML, css e javascript utilizando o framework Bootstrap o blog foi ide
 
 ![img](https://github.com/RayNfeeral/omercadordigital/blob/master/img/Mercador%20Digital%20-%20p%C3%A1gina%20inicial.png)
 
+![img](https://github.com/RayNfeeral/omercadordigital/blob/master/img/Mercador%20Digital%20-%20Conte%C3%BAdo.png)
+
 Atualmente o blog está desativado mas ainda pode ser visualizado no endereço https://raynfeeral.github.io/omercadordigital. 
 O código está acessível em https://github.com/raynfeeral.
 Meu colega de equipe pode ser achado no endereço https://github.com/FleepBer.
